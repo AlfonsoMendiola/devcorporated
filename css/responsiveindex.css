@@ -1,0 +1,110 @@
+@media(max-width:920px){
+    
+    #menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+        flex-direction: column; 
+        position: relative;
+        padding-right: 0px;
+        
+    }
+    
+   
+    
+    #menu ul #logo #logo-image{
+        
+        align-self: center;
+        
+    }
+    
+    #logo{
+        width: 45%;
+        padding-top: 5px;
+    }
+    
+    .quienes-somos{
+        margin-top: 0px;
+    }
+    
+    #formulario{
+        width: 55%;
+    }
+    
+} 
+
+
+@media(max-width:745px){
+    
+    .juan , .alfonso{
+        width: 100%;
+    }
+    
+    .valor{
+        width: 100%;
+    }
+    
+    #formulario{
+        width: 85%;
+    }
+}
+
+@media(max-width:650px){
+    .quienes-somos h1{
+        padding-top: 0px;
+    }
+    .quienes-somos center p{
+        font-size: 30px;
+    }
+    
+    #mision, #vision{
+        width: 100%;
+    }
+}
+
+@media(max-width:405px){
+    
+    #menu ul li{
+    
+    width: 45%;
+    }
+    #logo{
+        width: auto;
+        padding-top: 5px;
+    }
+    #logo-image{
+        width: 90%;
+    }
+    
+    .quienes-somos{
+        background-size: 200%;
+    }
+    .quienes-somos h1{
+        padding-top: 0px;
+    }
+    .quienes-somos center p{
+        width: 90%;
+    }
+    
+    .mapa_google{
+        width: 350px;
+    }
+    
+}
+
+@media(max-width:370px){
+    
+    #correo{
+        width: 99%;
+        
+    }
+    .boton{
+        width: 100%;
+    }
+    .mapa_google{
+        width: 320px;
+    }
+    
+}
+

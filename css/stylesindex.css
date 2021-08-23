@@ -1,0 +1,275 @@
+
+
+
+
+.quienes-somos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url(../imagenes/centrofin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-attachment: fixed;
+    margin-top: 80px;
+    animation: animacionInicio 1s linear;
+}
+
+
+
+.quienes-somos h1{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    text-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+    padding-top: 30px;
+    
+}
+.quienes-somos center p{
+    
+    width: 60%;
+    
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    text-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+    
+    
+    
+}
+
+.mision-vision{
+    display: flex;
+    background: #FF0000;
+    width: 80%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 4px;
+    justify-content: space-between;
+    animation: animacionInicio 1s linear;
+    
+}
+
+@keyframes animacionInicio{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#mision, #vision{
+    width: 45%;
+}
+
+
+#mision h2, #vision h2{
+    font-size: 30px;
+    text-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+}
+#mision p, #vision p{
+    font-size: 25px;
+    text-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+#titulo-estructura{
+    font-size: 40px;
+}
+.empleados{
+    display: flex;
+    width: 70%;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
+}
+.empleados h1{
+    font-size: 30px;
+}
+.desc{
+    font-size: 20px;
+}
+
+.juan , .alfonso{
+    width: 45%;
+    align-items: center;
+    align-self: center;
+    margin: 10px;
+} 
+
+.juan h1, .alfonso h1{
+    padding-top: 5px;
+    border-top: 8px solid #9643F5;
+    border-left: 8px solid #9643F5;
+    border-right: 8px solid #9643F5;
+    transition: all 300ms;
+}
+
+.foto-perfil{
+    padding-bottom: 5px;
+    border-bottom: 8px solid #9643F5;
+    border-left: 8px solid #9643F5;
+    border-right: 8px solid #9643F5;
+    transition: all 300ms;
+}
+
+.juan:hover h1 , .alfonso:hover h1{
+    border-top: 8px solid red;
+    border-left: 8px solid red;
+    border-right: 8px solid red;
+}
+.juan:hover .foto-perfil, .alfonso:hover .foto-perfil{
+    border-bottom: 8px solid red;
+    border-left: 8px solid red;
+    border-right: 8px solid red;
+}
+
+
+.foto{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    
+}
+
+.valores{
+    width: 70%;
+    
+}
+.valores > h2{
+    font-size: 35px;
+}
+    
+
+
+.todos-valores{
+    display: flex;
+    /*display: block;*/
+    min-height: 450px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.valor{
+    width: 45%;
+    
+    margin: 1%;
+}
+.valor h2{
+    font-size: 30px;
+    transition: all 300ms;
+}
+.valor h2:hover{
+    transform: scale(1.05);
+    color: #FE0000;
+}
+
+.valor p{
+    font-size: 20px;
+    /*color: #F2F2F2;*/
+    color: grey;
+    transition: all 300ms;
+}
+.valor p:hover{
+    color: white;
+}
+
+
+#boletin{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    
+    
+}
+.suscribe{
+    border-radius: 5px;
+    background-image: url(../imagenes/fondo_suscribe.png);
+    background-attachment: fixed;
+    align-content: center;
+    padding: 15px;
+    width: 70%;
+    
+}
+
+#formulario{
+    
+    width: 45%;
+    height: 95%;
+    flex-flow: column wrap;
+    background-image: url(../imagenes/black/black_twill/black_twill.png);
+    background-attachment: scroll;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    
+}
+form{
+    display: flex;
+    flex-flow: column wrap;
+}
+i{
+    transition: all 300ms;
+}
+i:hover{
+    color: red;
+    transform: scale(1.5);
+}
+
+.boton{
+    border: 0px;
+    color: white;
+    background: red;
+    height: 30px;
+    transition: all 200ms;
+}
+.boton:hover{
+    transform: scale(1.04);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

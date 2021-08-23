@@ -1,0 +1,108 @@
+
+#particles-js{
+    
+    height: 100%;
+    width: 100%;
+
+}
+
+.cotizacion{
+    
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    width: 450px;
+    z-index: 80;
+    animation: animacionInicio 1s linear;
+}
+
+#formulario-cotizacion{
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select{
+    /*margin-top: 5px;*/
+    margin-bottom: 5px;
+}
+
+.lista-servicios{
+    font-family: prosa;
+    /*color: black;*/
+}
+
+.boton{
+    border: 0px;
+    color: white;
+    background: red;
+    height: 30px;
+    transition: all 200ms;
+}
+.boton:hover{
+    background: black;
+    
+}
+
+/*responsive*/
+
+@media(max-width:1110px){
+    .cotizacion{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:982px){
+    #particles-js{
+        height: 600px;
+    }
+
+    .cotizacion {
+        margin-top: 10%;
+    }
+}
+
+@media(max-width:920px){
+    #particles-js{
+        height: 500px;
+    }
+    .cotizacion {
+        margin-top: 5px;
+    }
+}
+
+@media(max-width:560px){
+    
+    .cotizacion {
+        left: 45%;
+    }
+}
+
+@media(max-width:460px){
+    .cotizacion{
+        width: 90%;
+        
+    }
+    #formulario-cotizacion{
+        width: 95%;
+        margin: 0px auto;
+    }
+}
+@media(max-width:430px){
+    .cotizacion{
+        width: 80%;
+        left: 55%;
+    }
+}
+@media(max-width:370px){
+    .cotizacion{
+        width: 80%;
+        left: 65%;
+    }
+}
+@media(max-width:320px){
+    .cotizacion{
+        width: 80%;
+        left: 70%;
+    }
+}

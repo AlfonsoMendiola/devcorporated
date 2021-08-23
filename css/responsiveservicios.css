@@ -1,0 +1,70 @@
+@media(max-width:920px){
+    
+    #menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+        flex-direction: column; 
+        position: relative;
+        padding-right: 0px;
+        
+    }
+    
+    
+    #menu ul #logo #logo-image{
+        
+        align-self: center;
+        
+    }
+    
+    #logo{
+        width: 45%;
+        padding-top: 5px;
+    }
+    
+    #titulo-serv{
+        margin-top: 10px;
+    }
+    
+}
+
+@media(max-width: 650px){
+    .servicios{
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media(max-width:405px){
+    
+    #menu ul li{
+    
+    width: 45%;
+    }
+    #logo{
+        width: auto;
+        padding-top: 5px;
+    }
+    #logo-image{
+        width: 90%;
+    }
+    
+    .servicios{
+        grid-gap: 0px;
+        width: 80%;
+    }
+    
+    .mapa_google{
+        width: 350px;
+    }
+    
+}
+
+@media(max-width:370px){
+    
+    .mapa_google{
+        width: 320px;
+    }
+    
+}
